@@ -1,7 +1,8 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants'
 import { motion } from "framer-motion"
-
+import Ninja from './Ninja'
+import Ninjajuggling from './Ninjajuggling'
 
 const container=(delay)=>({
     hidden: {x: -100, opacity: 0},
@@ -30,7 +31,7 @@ const Hero = () => {
 
                 initial='hidden'
                 animate="visible"
-                className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>
+                className='bg-gradient-to-r from-indigo-300 via-slate-500 to-indigo-500 bg-clip-text text-4xl tracking-tight text-transparent'>
                     Full Stack Developer
                 </motion.span>
                 <motion.p 
@@ -42,6 +43,21 @@ const Hero = () => {
                     {HERO_CONTENT}
                 </motion.p>            
             </div>
+             <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 1 }}
+                className="w-full lg:w-1/2 flex justify-center items-center mt-10 lg:mt-0"
+                >
+                <div className=" relative w-[300px] h-[300px] md:w-[450px] md:h-[450px] lg:w-[550px] lg:h-[550px]">
+
+
+                    <Ninjajuggling />
+                    <p className='ml-28 text-lg antialiased'>"Playing with my favourite technologies"</p>
+
+                </div>
+        </motion.div>
+          
         </div>
     </div>
   )

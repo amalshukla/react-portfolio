@@ -3,17 +3,29 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
+export const HERO_CONTENT = `I’m a passionate Full Stack Developer with 2+ years of experience building scalable web applications using React.js, Python, Django/DRF, MySQL, and PostgreSQL. I also have hands-on experience with Docker and AWS, enabling efficient deployment and cloud-based solutions.`;
+export const ABOUT_TEXT = `I’m a dedicated Full Stack Developer with over 2 years of experience in building dynamic and user-friendly web applications. I specialize in developing scalable backends using Python, Django/DRF, and designing responsive frontends with React.js. I have strong expertise in creating RESTful APIs, managing databases with MySQL and PostgreSQL, and deploying applications using Docker and AWS.`;
 export const EXPERIENCES = [
   {
-    year: "2022 - Present",
-    role: "Frontend Developer",
+    year: "Sept 2022 - Oct 2024",
+    role: "Python full-stack Developer",
     company: "Tata Consultancy Services",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "CSS"],
+    description: `Developed web applications using python , Django & React.js. Implemented RESTful APIs and integrated with MYSql databases. Contributed in Sprint Planning and feature prioritization.`,
+    technologies: ["Python","Django", "React.js", "MySql"],
+  },
+  {
+    year: "Jan 2025 - Aug 2025",
+    role: "Python Backend Developer",
+    company: "Kisankart",
+    description: `Developed management application using Django/DRF and MySql. Implemented RESTful APIs for seamless interaction. Collaborated with cross-functional teams to deliver high-quality solutions aligned with business goals.`,
+    technologies: ["Python","Django", "MySql"],
+  },
+   {
+    year: "Aug-Present",
+    role: "Python Backend Developer",
+    company: "Freelancer",
+    description: `Developed management application using Django/DRF and MySql. Implemented RESTful APIs for seamless interaction. Collaborated with cross-functional teams to deliver high-quality solutions aligned with business goals.`,
+    technologies: ["Python","Django", "MySql"],
   },
   ];
 
@@ -23,29 +35,23 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["Python", "Django", "Mysql"],
   },
   {
-    title: "Task Management App",
+    title: "Help Guide",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["Python", "Django","React.js"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+    technologies: [ "React.js"]
+  }
+ 
 ];
 
 export const CONTACT = {
@@ -53,3 +59,11 @@ export const CONTACT = {
   phoneNo: "+91 7247030238 ",
   email: "amalshukla562000@gmail.com",
 };
+
+export const CONNECT = {
+  address : "1201 Geras Adara hinjewadi Phase 2, Pune [M.H]",
+  phone: "+91 7247030238 ",
+  email: "amalshukla562000@gmail.com",
+};
+
+/*{,"bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"} */
