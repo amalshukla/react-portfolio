@@ -23,7 +23,7 @@ export const EXPERIENCES = [
    {
     year: "Aug-Present",
     role: "Freelancer",
-    client: " Clinical Psychologist",
+    company: " Clinical Psychologist (Client)",
     description: `Developed a web platform for a clinical psychologist that enables patients to easily connect with the Psychologist for consultations. The website includes features such as appointment scheduling, secure patient registration, and a user-friendly interface for inquiries.`,
     technologies: ["Python","Django", "MySql", 'React', 'Bootstrap'],
   },
