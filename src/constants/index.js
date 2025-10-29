@@ -22,10 +22,10 @@ export const EXPERIENCES = [
   },
    {
     year: "Aug-Present",
-    role: "Python Backend Developer",
-    company: "Freelancer",
-    description: `Developed management application using Django/DRF and MySql. Implemented RESTful APIs for seamless interaction. Collaborated with cross-functional teams to deliver high-quality solutions aligned with business goals.`,
-    technologies: ["Python","Django", "MySql"],
+    role: "Freelancer",
+    client: " Clinical Psychologist",
+    description: `Developed a web platform for a clinical psychologist that enables patients to easily connect with the Psychologist for consultations. The website includes features such as appointment scheduling, secure patient registration, and a user-friendly interface for inquiries.`,
+    technologies: ["Python","Django", "MySql", 'React', 'Bootstrap'],
   },
   ];
 
