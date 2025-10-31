@@ -21,7 +21,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
-        
+        <Project />
         <Technologies />
         <Experience />
         <Contact />

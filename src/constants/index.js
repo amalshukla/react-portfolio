@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I’m a passionate Full Stack Developer with 2+ years of experience building scalable web applications using React.js, Python, Django/DRF, MySQL, and PostgreSQL. I also have hands-on experience with Docker and AWS, enabling efficient deployment and cloud-based solutions.`;
-export const ABOUT_TEXT = `I’m a dedicated Full Stack Developer with over 2 years of experience in building dynamic and user-friendly web applications. I specialize in developing scalable backends using Python, Django/DRF, and designing responsive frontends with React.js. I have strong expertise in creating RESTful APIs, managing databases with MySQL and PostgreSQL, and deploying applications using Docker and AWS.`;
+export const ABOUT_TEXT = `I’m a dedicated Full Stack Developer with over 2 years of experience in building dynamic and user-friendly web applications. I specialize in developing scalable backends using Python and Django/DRF, as well as designing responsive frontends with React.js. I have strong expertise in creating RESTful APIs, managing databases with MySQL and PostgreSQL, and deploying applications using Docker and Render`;
 export const EXPERIENCES = [
   {
     year: "Sept 2022 - Oct 2024",
@@ -15,7 +15,7 @@ export const EXPERIENCES = [
   },
   {
     year: "Jan 2025 - Aug 2025",
-    role: "Python Backend Developer",
+    role: "Python Backend Developer(Contract)",
     company: "Kisankart",
     description: `Developed management application using Django/DRF and MySql. Implemented RESTful APIs for seamless interaction. Collaborated with cross-functional teams to deliver high-quality solutions aligned with business goals.`,
     technologies: ["Python","Django", "MySql"],

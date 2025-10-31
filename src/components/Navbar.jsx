@@ -10,9 +10,26 @@ const Navbar = () => {
             <h2>AS</h2>
         </div>
         <div className='m-6 flex items-center justify-center gap-4 '>
-          <FaLinkedin />
-          <FaGithub />
-        </div>
+          
+          <a
+            href="https://www.linkedin.com/in/amalshukla/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-500 transition-colors duration-300"
+          >
+            <FaLinkedin />
+          </a>
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/amalshukla"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-400 transition-colors duration-300"
+          >
+            <FaGithub />
+          </a>
+          </div>
     </nav>
   )
 }
