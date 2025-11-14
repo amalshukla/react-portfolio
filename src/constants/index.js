@@ -20,13 +20,7 @@ export const EXPERIENCES = [
     description: `Developed management application using Django/DRF and MySql. Implemented RESTful APIs for seamless interaction. Collaborated with cross-functional teams to deliver high-quality solutions aligned with business goals.`,
     technologies: ["Python","Django", "MySql"],
   },
-   {
-    year: "Aug-Present",
-    role: "Freelancer",
-    company: " Clinical Psychologist (Client)",
-    description: `Developed a web platform for a clinical psychologist that enables patients to easily connect with the Psychologist for consultations. The website includes features such as appointment scheduling, secure patient registration, and a user-friendly interface for inquiries.`,
-    technologies: ["Python","Django", "MySql", 'React', 'Bootstrap'],
-  },
+   
   ];
 
 export const PROJECTS = [
